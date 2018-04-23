@@ -23,7 +23,7 @@ body {
     height: 150px;
     border-radius: 50%;
     border: 5px solid whitesmoke;
-    transition: all .5s;
+  
   }
 
   header .profile-picture:hover {
@@ -38,39 +38,33 @@ h1{
   margin: 10px auto;
   font-size: 20px;
 }
-
-.contact{
-    color:black;
-    font-size: 20px;
-    
-    }
-    
+  
     .col1 {
       margin: 30px;
       padding: 20px 40px 40px;
-      width: 80%; 
+      max-width: 80%; 
       text-align:left;
       background: #fff;
       border-bottom: 4px solid #ccc;
       border-radius: 6px;
-      transition: all .8s;
+    
       
       
     }
     .col2 {
       margin: 30px;
       padding: 20px 40px 40px;
-      width: 80%; 
+      max-width: 80%;
       text-align:left;
       background: #fff;
       border-bottom: 4px solid #ccc;
       border-radius: 6px;
-      transition: all .8s;
+  
     
       
     }
     
-    ul.skills {
+    ul .skills {
       padding: 0;
       text-align: center;
       list-style: none;
@@ -119,12 +113,15 @@ h1{
       background-size: 30px 30px;
 
     }
-    a.twitter {
+    .social {
       background-image: url(../Images/twitter.svg);
     }
+    /*Media Queries for Large Displays*/
+    @media screen and (min-width:720px)
+    .col1 {
+      min-width: 30%;
+    }
 
-
-  
-  
-    
-    
+    .col2 {
+      min-width: 30%;
+    }
