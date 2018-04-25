@@ -120,8 +120,11 @@ h1{
     @media screen and (min-width:720px)
     .col1 {
       min-width: 30%;
+      float: left;
     }
 
     .col2 {
       min-width: 30%;
+      float: right;
+      clear: right;
     }
