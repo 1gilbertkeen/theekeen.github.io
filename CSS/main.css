@@ -1,43 +1,28 @@
-body {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color: #222;
-    background: #f7f5f0;
-  }
-
-/* Section Styles */
- header {
-    text-align: center;
-    padding-top: 60px;
-    overflow: hidden;
-    background: url('../Images/mac.jpg') no-repeat center;
-    background-size: cover;
-    line-height: 1.5;
-  }
-
-  header .profile-picture {
-    margin-top: 50px;
+/* Header Style */
+.profile-picture {
+    margin-top: 0px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: 5px solid whitesmoke;
-  
   }
 
-  header .profile-picture:hover {
-    transform: scale(1.2) rotate(5deg);
+.profile-picture:hover {
+  transform: scale(1.1) rotate(5deg);
   }
 
-h1{
-    color:whitesmoke;
+h1 {
+  color:burlywood;
   padding: 10px;
   border-radius: 5px;
-  display: table;
-  margin: 10px auto;
+  margin-bottom: 2px;
   font-size: 20px;
-}
+ }
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  
+ }
   
     .col1 {
       margin: 30px;
@@ -47,7 +32,7 @@ h1{
       background: #fff;
       border-bottom: 4px solid #ccc;
       border-radius: 6px;
-    
+    px
       
       
     }
@@ -116,15 +101,4 @@ h1{
     .social {
       background-image: url(../Images/twitter.svg);
     }
-    /*Media Queries for Large Displays*/
-    @media screen and (min-width:720px)
-    .col1 {
-      min-width: 30%;
-      float: left;
-    }
-
-    .col2 {
-      min-width: 30%;
-      float: right;
-      clear: right;
-    }
+    
